@@ -1,19 +1,17 @@
-package fac;
+package com.liu.mode.create.abstractfac;
 
 /**
  * Created by simon.liu on 2017/1/5.
  */
 public class test {
     /**
-     * test main
+     * test abstract fac
      * @param args String[]
      */
     public static void main(String[] args) {
-        Fruit apple = FruitFactory.createApple();
-        Fruit banana = FruitFactory.createBanana();
+        FruitFactory fruitFactory = new AppleFactory();
+        Fruit apple = fruitFactory.createFruit();
         apple.color();
         apple.taste();
-        banana.color();
-        banana.taste();
     }
 }

@@ -1,4 +1,4 @@
-package fac;
+package com.liu.mode.create.fac;
 
 /**
  * Created by simon.liu on 2017/1/5.
