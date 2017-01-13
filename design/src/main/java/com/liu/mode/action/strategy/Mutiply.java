@@ -1,4 +1,4 @@
-package com.liu.mode.action;
+package com.liu.mode.action.strategy;
 
 /**
  * Created by simon.liu on 2017/1/10.
